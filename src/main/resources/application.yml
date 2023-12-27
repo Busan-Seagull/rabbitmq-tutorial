@@ -1,0 +1,20 @@
+# server port
+server:
+  port: 8082
+
+# logging
+logging:
+  level:
+    root: info
+
+# rabbitmq
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: aimir
+    password: aimiramm12!@
+
+tutorial:
+  client:
+    duration: 1000000
