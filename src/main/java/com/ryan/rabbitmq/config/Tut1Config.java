@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Profile;
 
 @Profile({"tut1", "hello-world"})
 @Configuration
-public class RabbitMqConfig {
+public class Tut1Config {
 
     @Bean
     public Queue hello(){
