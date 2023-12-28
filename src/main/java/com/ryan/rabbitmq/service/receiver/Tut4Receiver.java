@@ -1,10 +1,9 @@
-package com.ryan.rabbitmq.service;
+package com.ryan.rabbitmq.service.receiver;
 
-import com.ryan.rabbitmq.config.Tut3Config;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.util.StopWatch;
 
-public class Tut3Receiver {
+public class Tut4Receiver {
 
     @RabbitListener(queues = "#{autoDeleteQueue1.name}")
     public void receive1(String in) throws InterruptedException {
@@ -32,4 +31,5 @@ public class Tut3Receiver {
             }
         }
     }
+
 }

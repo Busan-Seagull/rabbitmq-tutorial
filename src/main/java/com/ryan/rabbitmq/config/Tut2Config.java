@@ -1,7 +1,7 @@
 package com.ryan.rabbitmq.config;
 
-import com.ryan.rabbitmq.service.Tut2Receiver;
-import com.ryan.rabbitmq.service.Tut2Sender;
+import com.ryan.rabbitmq.service.receiver.Tut2Receiver;
+import com.ryan.rabbitmq.service.sender.Tut2Sender;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

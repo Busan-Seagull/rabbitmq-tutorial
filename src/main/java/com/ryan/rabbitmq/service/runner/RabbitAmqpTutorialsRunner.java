@@ -1,4 +1,4 @@
-package com.ryan.rabbitmq.runner;
+package com.ryan.rabbitmq.service.runner;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

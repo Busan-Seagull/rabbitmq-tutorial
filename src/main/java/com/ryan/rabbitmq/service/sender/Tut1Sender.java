@@ -1,4 +1,4 @@
-package com.ryan.rabbitmq.service;
+package com.ryan.rabbitmq.service.sender;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
